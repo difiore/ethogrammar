@@ -1,18 +1,17 @@
-<!-- Tufts VUE 3.2.2 concept-map (master map 2014-02-15.vue) 2014-02-16 -->
+<!-- Tufts VUE 3.2.2 concept-map (mastermap.vue) 2014-02-16 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Feb 16 13:07:16 CST 2014 by anthony.difiore on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Sun Feb 16 14:50:29 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="none" ID="0"
-    label="master map 2014-02-15.vue" created="1392419110210" x="0.0"
-    y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1392577636426" size="251228"
-        spec="/Users/anthony.difiore/Dropbox/Tony's Ethoinformatics Stuff/ETHOINFORMATICS WORKING GROUP/master map 2014-02-15.vue"
-        type="1" xsi:type="URLResource">
-        <title>master map 2014-02-15.vue</title>
-        <property key="File" value="/Users/anthony.difiore/Dropbox/Tony's Ethoinformatics Stuff/ETHOINFORMATICS WORKING GROUP/master map 2014-02-15.vue"/>
+    xsi:noNamespaceSchemaLocation="none" ID="0" label="mastermap.vue"
+    created="1392419110210" x="0.0" y="0.0" width="1.4E-45"
+    height="1.4E-45" strokeWidth="0.0" autoSized="false">
+    <resource referenceCreated="1392580231437" size="253845"
+        spec="/Users/kenneth/Dropbox/ethogrammar/mastermap.vue" type="1" xsi:type="URLResource">
+        <title>mastermap.vue</title>
+        <property key="File" value="/Users/kenneth/Dropbox/ethogrammar/mastermap.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -20,7 +19,7 @@
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/32c1de7c8053b44701b385924b292f26</URIString>
     <child ID="17" label="universal data classes" layerID="1"
-        created="1392419277433" x="-836.75977" y="-1459.5613"
+        created="1392419277433" x="-728.6258" y="-1406.9962"
         width="132.0" height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
@@ -1574,7 +1573,7 @@
         <ID1 xsi:type="node">156</ID1>
         <ID2 xsi:type="node">149</ID2>
     </child>
-    <child ID="160" label="capture and sampling domain" layerID="1"
+    <child ID="160" label="capture and samples domain" layerID="1"
         created="1392423839272" x="-125.38464" y="-1578.9238"
         width="173.0" height="26.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#A6A6A6</fillColor>
@@ -4727,8 +4726,8 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/32c1de958053b44701b38592cc8ce94c</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-1058.8634" y="-1703.3291"/>
+    <userZoom>2.2569575877543726</userZoom>
+    <userOrigin x="-2160.2441" y="-3831.772"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1392419110210"
@@ -4780,6 +4779,6 @@
     </PathwayList>
     <date>2014-02-14</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/anthony.difiore/Dropbox/Tony's Ethoinformatics Stuff/ETHOINFORMATICS WORKING GROUP</saveLocation>
-    <saveFile>/Users/anthony.difiore/Dropbox/Tony's Ethoinformatics Stuff/ETHOINFORMATICS WORKING GROUP/master map 2014-02-15.vue</saveFile>
+    <saveLocation>/Users/kenneth/Dropbox/ethogrammar</saveLocation>
+    <saveFile>/Users/kenneth/Dropbox/ethogrammar/mastermap.vue</saveFile>
 </LW-MAP>
