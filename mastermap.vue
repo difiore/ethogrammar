@@ -1,17 +1,17 @@
 <!-- Tufts VUE 3.2.2 concept-map (mastermap.vue) 2014-02-16 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Feb 16 14:03:02 CST 2014 by anthony.difiore on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Sun Feb 16 15:09:52 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="mastermap.vue"
     created="1392419110210" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1392580982944" size="254375"
-        spec="/Users/anthony.difiore/ethogrammar/mastermap.vue" type="1" xsi:type="URLResource">
+    <resource referenceCreated="1392581392486" size="254379"
+        spec="/Users/kenneth/Dropbox/ethogrammar/mastermap.vue" type="1" xsi:type="URLResource">
         <title>mastermap.vue</title>
-        <property key="File" value="/Users/anthony.difiore/ethogrammar/mastermap.vue"/>
+        <property key="File" value="/Users/kenneth/Dropbox/ethogrammar/mastermap.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -4722,10 +4722,10 @@
         <ID1 xsi:type="node">779</ID1>
         <ID2 xsi:type="node">783</ID2>
     </child>
-    <child ID="791" label="Hello yet again Kenny" layerID="1"
-        created="1392580463127" x="-1021.81354" y="-1584.1989"
-        width="232.78847" height="97.62097" strokeWidth="1.0"
-        autoSized="false" xsi:type="node">
+    <child ID="791" label="Hello yet again Kenny&#xa;Hello back Tony!"
+        layerID="1" created="1392580463127" x="-1021.81354"
+        y="-1584.1989" width="232.78847" height="97.62097"
+        strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#7C18C9</fillColor>
         <strokeColor>#7F7F7F</strokeColor>
         <textColor>#000000</textColor>
@@ -4737,8 +4737,8 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/32c1de958053b44701b38592cc8ce94c</URIString>
     </layer>
-    <userZoom>0.6658405437980586</userZoom>
-    <userOrigin x="-2160.2441" y="-3831.772"/>
+    <userZoom>2.1342968229220296</userZoom>
+    <userOrigin x="-2478.9746" y="-3624.067"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1392419110210"
@@ -4790,6 +4790,6 @@
     </PathwayList>
     <date>2014-02-14</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/anthony.difiore/ethogrammar</saveLocation>
-    <saveFile>/Users/anthony.difiore/ethogrammar/mastermap.vue</saveFile>
+    <saveLocation>/Users/kenneth/Dropbox/ethogrammar</saveLocation>
+    <saveFile>/Users/kenneth/Dropbox/ethogrammar/mastermap.vue</saveFile>
 </LW-MAP>
