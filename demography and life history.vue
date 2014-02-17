@@ -1,18 +1,18 @@
 <!-- Tufts VUE 3.2.2 concept-map (demography and life history.vue) 2014-02-16 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Feb 16 15:18:50 CST 2014 by anthony.difiore on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Sun Feb 16 20:20:37 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="demography and life history.vue" created="1392585499723"
     x="0.0" y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1392585530981"
-        spec="/Users/anthony.difiore/ethogrammar/demography and life history.vue"
+    <resource referenceCreated="1392600037413" size="33556"
+        spec="/Users/kenneth/Dropbox/ethogrammar/demography and life history.vue"
         type="1" xsi:type="URLResource">
         <title>demography and life history.vue</title>
-        <property key="File" value="/Users/anthony.difiore/ethogrammar/demography and life history.vue"/>
+        <property key="File" value="/Users/kenneth/Dropbox/ethogrammar/demography and life history.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -72,8 +72,7 @@
     </child>
     <child ID="62" label="individual animal" layerID="1"
         created="1392585512753" x="86.283264" y="-18.241333"
-        width="213.75" height="216.25" strokeWidth="1.0"
-        autoSized="true" xsi:type="node">
+        width="213.75" height="163.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#83CEFF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -148,38 +147,6 @@
             <textColor>#000000</textColor>
             <font>Arial-plain-12</font>
             <URIString>http://vue.tufts.edu/rdf/resource/3c90de678053b4470123446dd00c2e01</URIString>
-            <shape xsi:type="rectangle"/>
-        </child>
-        <child ID="70" label="relationship[s]" created="1392585512753"
-            x="34.0" y="160.0" width="203.25" height="67.0"
-            strokeWidth="1.0" autoSized="true" xsi:type="node">
-            <fillColor>#FEFD8C</fillColor>
-            <strokeColor>#776D6D</strokeColor>
-            <textColor>#000000</textColor>
-            <font>Arial-plain-12</font>
-            <URIString>http://vue.tufts.edu/rdf/resource/3c90de688053b4470123446db017554e</URIString>
-            <child ID="71" label="type" created="1392585512753" x="34.0"
-                y="22.0" width="62.0" height="27.0" strokeWidth="1.0"
-                autoSized="true" xsi:type="node">
-                <notes>possible values: dam, sire, mate</notes>
-                <fillColor>#FEFD8C</fillColor>
-                <strokeColor>#776D6D</strokeColor>
-                <textColor>#000000</textColor>
-                <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/3c90de688053b4470123446dde9df1a2</URIString>
-                <shape xsi:type="rectangle"/>
-            </child>
-            <child ID="72"
-                label="partner = instance of individual animal"
-                created="1392585512753" x="34.0" y="44.5" width="218.0"
-                height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#DAA9FF</fillColor>
-                <strokeColor>#776D6D</strokeColor>
-                <textColor>#000000</textColor>
-                <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/3c90de688053b4470123446da73debca</URIString>
-                <shape xsi:type="rectangle"/>
-            </child>
             <shape xsi:type="rectangle"/>
         </child>
         <shape xsi:type="rectangle"/>
@@ -551,17 +518,59 @@
         </child>
         <shape xsi:type="rectangle"/>
     </child>
+    <child ID="70" label="relationship[s]" layerID="1"
+        created="1392585512753" x="-201.58017" y="62.97994"
+        width="243.75" height="87.25" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        <fillColor>#83CEFF</fillColor>
+        <strokeColor>#776D6D</strokeColor>
+        <textColor>#000000</textColor>
+        <font>Arial-plain-12</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/3c90de688053b4470123446db017554e</URIString>
+        <child ID="71" label="type" created="1392585512753" x="34.0"
+            y="22.0" width="62.0" height="27.0" strokeWidth="1.0"
+            autoSized="true" xsi:type="node">
+            <notes>possible values: dam, sire, mate</notes>
+            <fillColor>#FEFD8C</fillColor>
+            <strokeColor>#776D6D</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/3c90de688053b4470123446dde9df1a2</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
+        <child ID="109"
+            label="individual animal = instance of individual animal"
+            created="1392600005501" x="34.0" y="45.25" width="272.0"
+            height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <fillColor>#DAA9FF</fillColor>
+            <strokeColor>#776D6D</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/3d6e3831ac1a26370186780db39f10e5</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
+        <child ID="72" label="partner = instance of individual animal"
+            created="1392585512753" x="34.0" y="64.75" width="218.0"
+            height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <fillColor>#DAA9FF</fillColor>
+            <strokeColor>#776D6D</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/3c90de688053b4470123446da73debca</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
+        <shape xsi:type="rectangle"/>
+    </child>
     <layer ID="1" label="Layer 1" created="1392585499723" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/3c90de6d8053b4470123446d75b8064d</URIString>
     </layer>
-    <userZoom>1.0</userZoom>
-    <userOrigin x="-14.0" y="-279.3745"/>
+    <userZoom>0.7997082108605634</userZoom>
+    <userOrigin x="-206.12465" y="-232.62567"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1392585499722"
             x="0.0" y="0.0" width="1.4E-45" height="1.4E-45"
-            strokeWidth="0.0" autoSized="false" currentIndex="-1" open="true">
+            strokeWidth="0.0" autoSized="false" currentIndex="0" open="true">
             <strokeColor>#B3FF6633</strokeColor>
             <textColor>#000000</textColor>
             <font>SansSerif-plain-14</font>
@@ -608,6 +617,6 @@
     </PathwayList>
     <date>2014-02-16</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/anthony.difiore/ethogrammar</saveLocation>
-    <saveFile>/Users/anthony.difiore/ethogrammar/demography and life history.vue</saveFile>
+    <saveLocation>/Users/kenneth/Dropbox/ethogrammar</saveLocation>
+    <saveFile>/Users/kenneth/Dropbox/ethogrammar/demography and life history.vue</saveFile>
 </LW-MAP>
