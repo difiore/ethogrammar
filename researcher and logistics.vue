@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (researcher and logistics.vue) 2014-02-16 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Feb 16 19:38:28 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Sun Feb 16 19:46:59 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="researcher and logistics.vue" created="1392585379616" x="0.0"
     y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1392597508449" size="34674"
+    <resource referenceCreated="1392598019446" size="33097"
         spec="/Users/kenneth/Dropbox/ethogrammar/researcher and logistics.vue"
         type="1" xsi:type="URLResource">
         <title>researcher and logistics.vue</title>
@@ -242,7 +242,7 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="30" label="funding" layerID="1" created="1392585380962"
-        x="254.58014" y="99.988464" width="177.75" height="107.5"
+        x="254.58014" y="99.988464" width="177.75" height="127.0"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#EA2218</fillColor>
         <strokeColor>#776D6D</strokeColor>
@@ -259,8 +259,18 @@
             <URIString>http://vue.tufts.edu/rdf/resource/3c9009f38053b4470123446db4e6c7b3</URIString>
             <shape xsi:type="rectangle"/>
         </child>
+        <child ID="61" label="currency" created="1392598000964" x="34.0"
+            y="41.5" width="58.0" height="22.0" strokeWidth="1.0"
+            autoSized="true" xsi:type="node">
+            <fillColor>#FEFD8C</fillColor>
+            <strokeColor>#776D6D</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/3d4f6db9ac1a26370186780dae1557dd</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
         <child ID="32" label="receive date = instance of date"
-            created="1392585380963" x="34.0" y="41.5" width="184.0"
+            created="1392585380963" x="34.0" y="61.0" width="184.0"
             height="24.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
             <fillColor>#DAA9FF</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -270,7 +280,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="33" label="source = instance of institution"
-            created="1392585380963" x="34.0" y="62.5" width="175.0"
+            created="1392585380963" x="34.0" y="82.0" width="175.0"
             height="24.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
             <fillColor>#DAA9FF</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -280,7 +290,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="34" label="expiry date = instance of date"
-            created="1392585380963" x="34.0" y="83.5" width="184.0"
+            created="1392585380963" x="34.0" y="103.0" width="184.0"
             height="24.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
             <fillColor>#DAA9FF</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -291,16 +301,16 @@
         </child>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="35" layerID="1" created="1392585380962" x="391.0991"
-        y="81.188416" width="17.391357" height="19.300049"
+    <child ID="35" layerID="1" created="1392585380962" x="393.67386"
+        y="81.188416" width="15.616638" height="19.300049"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c9009f38053b4470123446dc96206d8</URIString>
-        <point1 x="391.5991" y="99.988464"/>
-        <point2 x="407.99045" y="81.688416"/>
+        <point1 x="394.17386" y="99.988464"/>
+        <point2 x="408.7905" y="81.688416"/>
         <ID1 xsi:type="node">30</ID1>
         <ID2 xsi:type="node">29</ID2>
     </child>
