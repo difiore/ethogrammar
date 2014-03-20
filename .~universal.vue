@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (universal.vue) 2014-03-20 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Mar 20 16:34:05 CDT 2014 by anthony.difiore on platform Mac OS X 10.9.2 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Thu Mar 20 16:29:48 CDT 2014 by anthony.difiore on platform Mac OS X 10.9.2 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="universal.vue"
     created="1392584766038" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1395351245496" size="41472"
+    <resource referenceCreated="1395350988093" size="43698"
         spec="/Users/anthony.difiore/ethogrammar/universal.vue" type="1" xsi:type="URLResource">
         <title>universal.vue</title>
         <property key="File" value="/Users/anthony.difiore/ethogrammar/universal.vue"/>
@@ -19,8 +19,8 @@
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/3c85809a8053b4470123446dfc93d632</URIString>
     <child ID="6" label="universal data classes" layerID="1"
-        created="1392584767669" x="244.81708" y="-96.93713"
-        width="132.0" height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        created="1392584767669" x="235.81708" y="5.062866" width="132.0"
+        height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -492,7 +492,7 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="53" label="taxonomy" layerID="1" created="1392584767669"
-        x="539.0638" y="266.83606" width="189.75" height="126.25"
+        x="26.063782" y="170.83606" width="189.75" height="126.25"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>

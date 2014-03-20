@@ -1,17 +1,17 @@
-<!-- Tufts VUE 3.2.2 concept-map (behavior.vue) 2014-03-20 -->
+<!-- Tufts VUE 3.2.2 concept-map (behavior.vue) 2014-02-18 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Mar 20 17:58:11 CDT 2014 by anthony.difiore on platform Mac OS X 10.9.2 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Tue Feb 18 16:20:43 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="behavior.vue"
     created="1392585689773" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1395356291265" size="26670"
-        spec="/Users/anthony.difiore/ethogrammar/behavior.vue" type="1" xsi:type="URLResource">
+    <resource referenceCreated="1392758446203" size="22223"
+        spec="/Users/kenneth/Dropbox/ethogrammar/behavior.vue" type="1" xsi:type="URLResource">
         <title>behavior.vue</title>
-        <property key="File" value="/Users/anthony.difiore/ethogrammar/behavior.vue"/>
+        <property key="File" value="/Users/kenneth/Dropbox/ethogrammar/behavior.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -19,7 +19,7 @@
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/3c94e65a8053b4470123446d0dc3596a</URIString>
     <child ID="118" label="behavior domain" layerID="1"
-        created="1392585785486" x="105.56616" y="-254.47772"
+        created="1392585785486" x="124.56616" y="-256.47772"
         width="260.0" height="26.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#7C18C9</fillColor>
         <strokeColor>#7F7F7F</strokeColor>
@@ -100,8 +100,8 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="126" label="behavior protocol" layerID="1"
-        created="1392585785486" x="366.58118" y="-174.66211"
-        width="236.25" height="149.5" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        created="1392585785486" x="368.58118" y="-171.66211"
+        width="182.25" height="130.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#7C18C9</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -159,35 +159,24 @@
             <URIString>http://vue.tufts.edu/rdf/resource/46df6d87ac1d0b1a01e8f4e1587dc57f</URIString>
             <shape xsi:type="rectangle"/>
         </child>
-        <child ID="171"
-            label="research project = instance of research project"
-            created="1395354228985" x="34.0" y="127.0" width="262.0"
-            height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-            <fillColor>#EA2218</fillColor>
-            <strokeColor>#776D6D</strokeColor>
-            <textColor>#000000</textColor>
-            <font>Arial-plain-12</font>
-            <URIString>http://vue.tufts.edu/rdf/resource/e1b750c38053b447007ecaa1e4d5254b</URIString>
-            <shape xsi:type="rectangle"/>
-        </child>
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="131" layerID="1" created="1392585785486" x="248.58923"
-        y="-106.58033" width="118.49194" height="4.075821"
+        y="-107.623764" width="120.49194" height="1.2619171"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c94e65e8053b4470123446d8bd35303</URIString>
-        <point1 x="249.08923" y="-106.08033"/>
-        <point2 x="366.58118" y="-103.00451"/>
+        <point1 x="249.08923" y="-107.123764"/>
+        <point2 x="368.58118" y="-106.86185"/>
         <ID1 xsi:type="node">124</ID1>
         <ID2 xsi:type="node">126</ID2>
     </child>
     <child ID="132" label="unit of behavior" layerID="1"
-        created="1392585785486" x="-71.58118" y="-141.49359"
-        width="171.75" height="107.5" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        created="1392585785486" x="-94.58118" y="-153.49359"
+        width="197.25" height="127.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#7C18C9</fillColor>
         <strokeColor>#7F7F7F</strokeColor>
         <textColor>#000000</textColor>
@@ -213,8 +202,18 @@
             <URIString>http://vue.tufts.edu/rdf/resource/3c94e65f8053b4470123446dc634752d</URIString>
             <shape xsi:type="rectangle"/>
         </child>
+        <child ID="134" label="location = instance of location record"
+            created="1392585785487" x="34.0" y="61.0" width="210.0"
+            height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <fillColor>#DAA9FF</fillColor>
+            <strokeColor>#776D6D</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/3c94e65e8053b4470123446d96686dd9</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
         <child ID="157" label="participant = set of participants"
-            created="1392752411881" x="34.0" y="61.0" width="176.0"
+            created="1392752411881" x="34.0" y="80.5" width="176.0"
             height="28.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
             <fillColor>#7C18C9</fillColor>
             <strokeColor>#7F7F7F</strokeColor>
@@ -224,7 +223,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="135" label="class of behavior"
-            created="1392585785487" x="34.0" y="85.0" width="103.0"
+            created="1392585785487" x="34.0" y="104.5" width="103.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#7C18C9</fillColor>
             <strokeColor>#7F7F7F</strokeColor>
@@ -235,40 +234,29 @@
         </child>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="140" layerID="1" created="1392585785486" x="99.66882"
-        y="-88.2332" width="62.92041" height="1.0074997"
+    <child ID="140" layerID="1" created="1392585785486" x="102.16882"
+        y="-89.43756" width="60.42041" height="1.6362381"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c94e65f8053b4470123446dd47773ec</URIString>
-        <point1 x="162.08923" y="-87.7257"/>
-        <point2 x="100.16882" y="-87.7332"/>
+        <point1 x="162.08923" y="-88.30133"/>
+        <point2 x="102.66882" y="-88.93757"/>
         <ID1 xsi:type="node">125</ID1>
         <ID2 xsi:type="node">132</ID2>
     </child>
     <child ID="145" label="ethogram" layerID="1" created="1392751552590"
-        x="123.418884" y="-27.160248" width="228.75" height="94.9375"
-        strokeWidth="1.0" autoSized="true" xsi:type="node">
+        x="129.41888" y="-42.160248" width="202.92511" height="97.49039"
+        strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#7C18C9</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/46df6e2eac1d0b1a01e8f4e12d2243d1</URIString>
-        <child ID="170"
-            label="research group = instance of research group"
-            created="1395354079383" x="34.0" y="22.0" width="252.0"
-            height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-            <fillColor>#EA2218</fillColor>
-            <strokeColor>#776D6D</strokeColor>
-            <textColor>#000000</textColor>
-            <font>Arial-plain-12</font>
-            <URIString>http://vue.tufts.edu/rdf/resource/e1b750c58053b447007ecaa1069bf0ed</URIString>
-            <shape xsi:type="rectangle"/>
-        </child>
         <child ID="136" label="class of behavior"
-            created="1392585785486" x="34.0" y="41.5" width="199.5"
+            created="1392585785486" x="34.0" y="22.0" width="199.5"
             height="63.25" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#7C18C9</fillColor>
             <strokeColor>#7F7F7F</strokeColor>
@@ -300,34 +288,34 @@
         </child>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="141" layerID="1" created="1392585785486" x="22.644073"
-        y="-40.49359" width="146.54912" height="55.333344"
+    <child ID="141" layerID="1" created="1392585785486" x="16.168823"
+        y="-34.666916" width="147.75006" height="25.987108"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c94e65f8053b4470123446defc67d00</URIString>
-        <point1 x="23.144072" y="-39.99359"/>
-        <point2 x="168.69319" y="14.339752"/>
+        <point1 x="16.668823" y="-34.166916"/>
+        <point2 x="163.41888" y="-9.179808"/>
         <ID1 xsi:type="node">135</ID1>
         <ID2 xsi:type="node">136</ID2>
     </child>
-    <child ID="155" layerID="1" created="1392752092072" x="351.66888"
-        y="-51.16211" width="96.289764" height="33.255173"
+    <child ID="155" layerID="1" created="1392752092072" x="331.844"
+        y="-48.16211" width="110.41629" height="29.146553"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/46df6e30ac1d0b1a01e8f4e1c4546f95</URIString>
-        <point1 x="352.16888" y="-18.406937"/>
-        <point2 x="447.45865" y="-50.66211"/>
+        <point1 x="332.344" y="-19.515556"/>
+        <point2 x="441.76028" y="-47.66211"/>
         <ID1 xsi:type="node">145</ID1>
         <ID2 xsi:type="node">151</ID2>
     </child>
     <child ID="162" label="participant" layerID="1"
-        created="1392752774448" x="-297.94656" y="-115.13214"
+        created="1392752774448" x="-345.94656" y="-106.13214"
         width="197.25" height="87.25" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#7C18C9</fillColor>
         <strokeColor>#776D6D</strokeColor>
@@ -367,18 +355,82 @@
         </child>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="161" layerID="1" created="1392752551970" x="-101.19656"
-        y="-71.351685" width="64.11539" height="1.4194565"
+    <child ID="161" layerID="1" created="1392752551970" x="-149.19656"
+        y="-63.001854" width="89.11539" height="1.0047264"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/46df6e73ac1d0b1a01e8f4e1f929668b</URIString>
-        <point1 x="-100.69656" y="-70.851685"/>
-        <point2 x="-37.581177" y="-70.43223"/>
+        <point1 x="-148.69656" y="-62.501854"/>
+        <point2 x="-60.581177" y="-62.497128"/>
         <ID1 xsi:type="node">162</ID1>
         <ID2 xsi:type="node">157</ID2>
+    </child>
+    <child ID="166"
+        label="The recursive relationships of classes and their parents (i.e. modifiers &#xa;      and behaviors) together constitute an ethogram. What other attributes &#xa;      constitute a &quot;class of behavior&quot;?"
+        layerID="1" created="1392752971214" x="354.344" y="4.330139"
+        width="191.0" height="86.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#000000</textColor>
+        <font>SansSerif-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/46df6e73ac1d0b1a01e8f4e1c3184117</URIString>
+        <richText>&lt;html&gt;
+  &lt;head color="#000000" style="color: #000000"&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { margin-left: 0px; font-size: 12; margin-bottom: 0px; color: #000000; margin-top: 0px; font-family: Arial; margin-right: 0px }
+        ol { margin-left: 30; vertical-align: middle; font-size: 12; list-style-position: outside; margin-top: 6; font-family: Arial }
+        p { margin-left: 0; margin-bottom: 0; color: #000000; margin-top: 0; margin-right: 0 }
+        ul { margin-left: 30; vertical-align: middle; font-size: 12; list-style-position: outside; margin-top: 6; font-family: Arial }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      The recursive relationships of classes and their parents (i.e. modifiers 
+      and behaviors) together constitute an ethogram. What other attributes 
+      constitute a &amp;quot;class of behavior&amp;quot;?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
+        <label>The recursive relationships of classes and their parents (i.e. modifiers 
+      and behaviors) together constitute an ethogram. What other attributes 
+      constitute a "class of behavior"?</label>
+    </child>
+    <child ID="169"
+        label="Each participant has a location. Does the unit of behavior also have a &#xa;      location that is independent of the location of its participants?"
+        layerID="1" created="1392758346210" x="-344.656" y="-176.66986"
+        width="230.0" height="100.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#000000</textColor>
+        <font>SansSerif-plain-14</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/46df6e74ac1d0b1a01e8f4e1813a7903</URIString>
+        <richText>&lt;html&gt;
+  &lt;head&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { margin-left: 0px; font-size: 12; margin-bottom: 0px; color: #000000; margin-top: 0px; font-family: Arial; margin-right: 0px }
+        ol { margin-left: 30; vertical-align: middle; font-size: 12; list-style-position: outside; margin-top: 6; font-family: Arial }
+        p { margin-left: 0; margin-bottom: 0; color: #000000; margin-top: 0; margin-right: 0 }
+        ul { margin-left: 30; vertical-align: middle; font-size: 12; list-style-position: outside; margin-top: 6; font-family: Arial }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p color="#000000" style="color: #000000"&gt;
+      Each participant has a location. Does the unit of behavior also have a 
+      location that is independent of the location of its participants?
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
+        <label>Each participant has a location. Does the unit of behavior also have a 
+      location that is independent of the location of its participants?</label>
     </child>
     <layer ID="1" label="Layer 1" created="1392585689774" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
@@ -437,6 +489,6 @@
     </PathwayList>
     <date>2014-02-16</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/anthony.difiore/ethogrammar</saveLocation>
-    <saveFile>/Users/anthony.difiore/ethogrammar/behavior.vue</saveFile>
+    <saveLocation>/Users/kenneth/Dropbox/ethogrammar</saveLocation>
+    <saveFile>/Users/kenneth/Dropbox/ethogrammar/behavior.vue</saveFile>
 </LW-MAP>
