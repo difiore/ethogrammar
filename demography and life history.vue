@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.2.2 concept-map (demography and life history.vue) 2014-02-17 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Mon Feb 17 14:21:49 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Mon Feb 17 14:35:32 EST 2014 by kenneth on platform Mac OS X 10.9.1 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="demography and life history.vue" created="1392585499723"
     x="0.0" y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1392664909328" size="34069"
+    <resource referenceCreated="1392665732765" size="34632"
         spec="/Users/kenneth/Dropbox/ethogrammar/demography and life history.vue"
         type="1" xsi:type="URLResource">
         <title>demography and life history.vue</title>
@@ -151,7 +151,7 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="77" label="census" layerID="1" created="1392585512753"
-        x="352.14938" y="97.40865" width="214.5" height="183.0625"
+        x="352.14938" y="97.40865" width="214.5" height="202.1875"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#83CEFF</fillColor>
         <strokeColor>#776D6D</strokeColor>
@@ -188,8 +188,8 @@
             <URIString>http://vue.tufts.edu/rdf/resource/3c90de698053b4470123446df03f1c9c</URIString>
             <shape xsi:type="rectangle"/>
         </child>
-        <child ID="80" label="taker[s] = [set of] observer[s]"
-            created="1392585512754" x="34.0" y="80.5" width="161.0"
+        <child ID="80" label="observer = [set of] observer[s]"
+            created="1392585512754" x="34.0" y="80.5" width="170.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#DAA9FF</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -210,7 +210,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="111" label="type" created="1392664825007" x="34.0"
-            y="119.5" width="171.0" height="76.75" strokeWidth="1.0"
+            y="119.5" width="171.0" height="102.25" strokeWidth="1.0"
             autoSized="true" xsi:type="node">
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -235,6 +235,16 @@
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
                 <URIString>http://vue.tufts.edu/rdf/resource/414be643ac1a26370186780d0d70dd40</URIString>
+                <shape xsi:type="rectangle"/>
+            </child>
+            <child ID="114" label="population" created="1392665301782"
+                x="34.0" y="73.0" width="69.0" height="31.0"
+                strokeWidth="1.0" autoSized="false" xsi:type="node">
+                <fillColor>#FEFD8C</fillColor>
+                <strokeColor>#776D6D</strokeColor>
+                <textColor>#000000</textColor>
+                <font>Arial-plain-12</font>
+                <URIString>http://vue.tufts.edu/rdf/resource/41531675ac1a26370186780d1e9ad4a9</URIString>
                 <shape xsi:type="rectangle"/>
             </child>
             <shape xsi:type="rectangle"/>
