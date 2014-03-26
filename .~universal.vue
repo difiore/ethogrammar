@@ -1,30 +1,36 @@
-<!-- Tufts VUE 3.2.2 concept-map (universal.vue) 2014-03-26 -->
+<!-- Tufts VUE 3.2.2 concept-map (universal.vue) 2014-03-20 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Wed Mar 26 18:27:40 EDT 2014 by kenneth on platform Mac OS X 10.9.2 in JVM 1.6.0_65-b14-462-11M4609 -->
+<!-- Do Not Remove: Saved date Thu Mar 20 16:29:48 CDT 2014 by anthony.difiore on platform Mac OS X 10.9.2 in JVM 1.6.0_65-b14-462-11M4609 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built May 23 2013 at 2146 by tomadm on Linux 2.6.18-348.2.1.el5 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0" label="universal.vue"
     created="1392584766038" x="0.0" y="0.0" width="1.4E-45"
     height="1.4E-45" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1395872860715" size="44292"
-        spec="/Users/kenneth/Dropbox/ethogrammar/universal.vue" type="1" xsi:type="URLResource">
+    <resource referenceCreated="1395350988093" size="43698"
+        spec="/Users/anthony.difiore/ethogrammar/universal.vue" type="1" xsi:type="URLResource">
         <title>universal.vue</title>
-        <property key="File" value="/Users/kenneth/Dropbox/ethogrammar/universal.vue"/>
+        <property key="File" value="/Users/anthony.difiore/ethogrammar/universal.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
     <textColor>#000000</textColor>
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/3c85809a8053b4470123446dfc93d632</URIString>
+    <child ID="6" label="universal data classes" layerID="1"
+        created="1392584767669" x="235.81708" y="5.062866" width="132.0"
+        height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+        <fillColor>#DAA9FF</fillColor>
+        <strokeColor>#776D6D</strokeColor>
+        <textColor>#000000</textColor>
+        <font>Arial-plain-12</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/3c85809b8053b4470123446d2b303ef7</URIString>
+        <shape xsi:type="rectangle"/>
+    </child>
     <child ID="7" label="time" layerID="1" created="1392584767669"
-        x="432.56558" y="212.4823" width="87.75" height="103.0"
+        x="412.2921" y="209.1034" width="87.75" height="103.0"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/time" type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/time"/>
-        </resource>
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -73,12 +79,8 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="12" label="date" layerID="1" created="1392584767669"
-        x="438.8918" y="329.3734" width="73.5" height="83.5"
+        x="417.49207" y="319.2367" width="73.5" height="83.5"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/date" type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/date"/>
-        </resource>
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -117,13 +119,8 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="16" label="point location" layerID="1"
-        created="1392584767669" x="617.72266" y="-88.17144"
-        width="141.0" height="265.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/point-location"
-            type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/point-location"/>
-        </resource>
+        created="1392584767669" x="586.18616" y="-69.02429"
+        width="141.0" height="317.5" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -200,47 +197,78 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="24" label="collection method" created="1392584767670"
-            x="34.0" y="158.5" width="135.0" height="82.0"
+            x="34.0" y="158.5" width="135.0" height="27.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <notes>possible values: GPS, mapping from reference point</notes>
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
             <textColor>#000000</textColor>
             <font>Arial-plain-12</font>
             <URIString>http://vue.tufts.edu/rdf/resource/3c8580a68053b4470123446d1d95d1d2</URIString>
-            <child ID="85" label="GPS" created="1395868544088" x="34.0"
-                y="22.0" width="36.0" height="22.0" strokeWidth="1.0"
-                autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+            <shape xsi:type="rectangle"/>
+        </child>
+        <child ID="25" label="context" created="1392584767670" x="34.0"
+            y="181.75" width="120.0" height="121.0" strokeWidth="1.0"
+            autoSized="true" xsi:type="node">
+            <fillColor>#FEFD8C</fillColor>
+            <strokeColor>#776D6D</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/3c8580a68053b4470123446d4b6d829f</URIString>
+            <child ID="26" label="capture event" created="1392584767670"
+                x="34.0" y="22.0" width="85.0" height="24.0"
+                strokeWidth="1.0" autoSized="false" xsi:type="node">
+                <fillColor>#A6A6A6</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/0040ef3dac1a254401dd05d691a6b372</URIString>
+                <URIString>http://vue.tufts.edu/rdf/resource/3c8580a68053b4470123446db3b30628</URIString>
                 <shape xsi:type="rectangle"/>
             </child>
-            <child ID="86" label="reference point"
-                created="1395868552504" x="34.0" y="40.75" width="93.0"
+            <child ID="27" label="biological sample"
+                created="1392584767670" x="34.0" y="42.25" width="107.0"
                 height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#A6A6A6</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/0040ef3dac1a254401dd05d6e17d6573</URIString>
+                <URIString>http://vue.tufts.edu/rdf/resource/3c8580a68053b4470123446de3dbe67d</URIString>
                 <shape xsi:type="rectangle"/>
             </child>
-            <child ID="87" label="etc." created="1395868567505" x="34.0"
-                y="59.5" width="30.0" height="22.0" strokeWidth="1.0"
-                autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+            <child ID="28" label="processing event"
+                created="1392584767670" x="34.0" y="61.0" width="104.0"
+                height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+                <fillColor>#A6A6A6</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/0040ef3dac1a254401dd05d6c9afdd06</URIString>
+                <URIString>http://vue.tufts.edu/rdf/resource/3c8580a78053b4470123446da4cb85cd</URIString>
+                <shape xsi:type="rectangle"/>
+            </child>
+            <child ID="29" label="location record"
+                created="1392584767670" x="34.0" y="79.75" width="92.0"
+                height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
+                <fillColor>#7C18C9</fillColor>
+                <strokeColor>#776D6D</strokeColor>
+                <textColor>#000000</textColor>
+                <font>Arial-plain-12</font>
+                <URIString>http://vue.tufts.edu/rdf/resource/3c8580a78053b4470123446dae30d342</URIString>
+                <shape xsi:type="rectangle"/>
+            </child>
+            <child ID="30" label="tree" created="1392584767671" x="34.0"
+                y="98.5" width="32.0" height="22.0" strokeWidth="1.0"
+                autoSized="true" xsi:type="node">
+                <fillColor>#9DDB53</fillColor>
+                <strokeColor>#776D6D</strokeColor>
+                <textColor>#000000</textColor>
+                <font>Arial-plain-12</font>
+                <URIString>http://vue.tufts.edu/rdf/resource/3c8580a78053b4470123446d81b6e21d</URIString>
                 <shape xsi:type="rectangle"/>
             </child>
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="31" label="associated error" created="1392584767671"
-            x="34.0" y="223.0" width="99.0" height="22.0"
+            x="34.0" y="275.5" width="99.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -250,7 +278,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="32" label="projection" created="1392584767671"
-            x="34.0" y="242.5" width="65.0" height="22.0"
+            x="34.0" y="295.0" width="65.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -262,12 +290,8 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="33" label="site" layerID="1" created="1392584767669"
-        x="503.36142" y="59.232998" width="93.0" height="142.0"
+        x="429.0254" y="47.96997" width="93.0" height="142.0"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/site" type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/site"/>
-        </resource>
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -336,13 +360,9 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="40" label="measurement" layerID="1"
-        created="1392584767669" x="261.9195" y="265.68445"
+        created="1392584767669" x="249.53015" y="289.3368"
         width="139.3125" height="227.6875" strokeWidth="1.0"
         autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/measurement" type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/measurement"/>
-        </resource>
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -351,15 +371,16 @@
         <child ID="41" label="type" created="1392584767671" x="34.0"
             y="22.0" width="108.75" height="100.75" strokeWidth="1.0"
             autoSized="true" xsi:type="node">
+            <notes>possible values: length, mass, angle, area, volume, degrees</notes>
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
             <textColor>#000000</textColor>
             <font>Arial-plain-12</font>
             <URIString>http://vue.tufts.edu/rdf/resource/3c8580ab8053b4470123446df80a069d</URIString>
-            <child ID="42" label="mass" created="1392584767671" x="34.0"
-                y="22.0" width="40.0" height="22.0" strokeWidth="1.0"
-                autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+            <child ID="42" label="weight" created="1392584767671"
+                x="34.0" y="22.0" width="47.0" height="22.0"
+                strokeWidth="1.0" autoSized="true" xsi:type="node">
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -369,7 +390,7 @@
             <child ID="43" label="morphometrics" created="1392584767671"
                 x="34.0" y="40.75" width="92.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -379,7 +400,7 @@
             <child ID="44" label="temperature" created="1392584767671"
                 x="34.0" y="59.5" width="77.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -389,7 +410,7 @@
             <child ID="45" label="etc." created="1392584767671" x="34.0"
                 y="78.25" width="30.0" height="22.0" strokeWidth="1.0"
                 autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -439,7 +460,7 @@
             <child ID="50" label="landmarks" created="1392584767672"
                 x="34.0" y="22.0" width="68.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -449,7 +470,7 @@
             <child ID="51" label="measurement period"
                 created="1392584767672" x="34.0" y="40.75" width="124.0"
                 height="24.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -459,7 +480,7 @@
             <child ID="52" label="etc." created="1392584767672" x="34.0"
                 y="61.0" width="30.0" height="22.0" strokeWidth="1.0"
                 autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -471,12 +492,8 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="53" label="taxonomy" layerID="1" created="1392584767669"
-        x="572.8529" y="240.93106" width="189.75" height="122.5"
+        x="26.063782" y="170.83606" width="189.75" height="126.25"
         strokeWidth="1.0" autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/taxonomy" type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/taxonomy"/>
-        </resource>
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
@@ -513,8 +530,9 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="58" label="higher level" created="1392584767672"
-            x="34.0" y="80.5" width="75.0" height="22.0"
+            x="34.0" y="80.5" width="103.0" height="27.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <notes>possible values: Mammalia-Primates, etc.</notes>
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
             <textColor>#000000</textColor>
@@ -523,7 +541,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="78" label="identified by = instance of observer"
-            created="1395350907691" x="34.0" y="100.0" width="200.0"
+            created="1395350907691" x="34.0" y="103.75" width="200.0"
             height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#EA2218</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -535,21 +553,16 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="59" label="physical record" layerID="1"
-        created="1392584767669" x="212.87503" y="73.14079"
-        width="192.75" height="145.75" strokeWidth="1.0"
+        created="1392584767669" x="248.91675" y="109.182495"
+        width="136.5" height="158.40625" strokeWidth="1.0"
         autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/physical-record"
-            type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/physical-record"/>
-        </resource>
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c8580b08053b4470123446debbe7eb1</URIString>
         <child ID="60" label="type" created="1392584767672" x="34.0"
-            y="22.0" width="204.0" height="157.0" strokeWidth="1.0"
+            y="22.0" width="129.0" height="173.875" strokeWidth="1.0"
             autoSized="true" xsi:type="node">
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -559,7 +572,7 @@
             <child ID="61" label="photo" created="1392584767672"
                 x="34.0" y="22.0" width="42.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -569,7 +582,7 @@
             <child ID="62" label="video" created="1392584767672"
                 x="34.0" y="40.75" width="41.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -579,7 +592,7 @@
             <child ID="63" label="palm prints" created="1392584767672"
                 x="34.0" y="59.5" width="71.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -589,7 +602,7 @@
             <child ID="64" label="sound recording"
                 created="1392584767672" x="34.0" y="78.25" width="100.0"
                 height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -599,33 +612,38 @@
             <child ID="65" label="dental cast" created="1392584767672"
                 x="34.0" y="97.0" width="70.0" height="22.0"
                 strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
                 <URIString>http://vue.tufts.edu/rdf/resource/3c8580b28053b4470123446da4abf2e4</URIString>
                 <shape xsi:type="rectangle"/>
             </child>
-            <child ID="66" label="pressed plants = instance of taxonomy"
+            <child ID="66" label="pressed plants"
                 created="1392584767672" x="34.0" y="115.75"
-                width="219.0" height="22.0" strokeWidth="1.0"
+                width="119.0" height="44.5" strokeWidth="1.0"
                 autoSized="true" xsi:type="node">
-                <resource referenceCreated="0"
-                    spec="http://ethoinformatics.org/terms/taxonomy"
-                    type="2" xsi:type="URLResource">
-                    <property key="URL" value="http://ethoinformatics.org/terms/taxonomy"/>
-                </resource>
-                <fillColor>#DAA9FF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
                 <URIString>http://vue.tufts.edu/rdf/resource/3c8580b28053b4470123446dd035630b</URIString>
+                <child ID="67" label="taxonomy" created="1392584767672"
+                    x="34.0" y="22.0" width="64.0" height="22.0"
+                    strokeWidth="1.0" autoSized="true" xsi:type="node">
+                    <fillColor>#DAA9FF</fillColor>
+                    <strokeColor>#776D6D</strokeColor>
+                    <textColor>#000000</textColor>
+                    <font>Arial-plain-12</font>
+                    <URIString>http://vue.tufts.edu/rdf/resource/3c8580b28053b4470123446d8d4a6bec</URIString>
+                    <shape xsi:type="rectangle"/>
+                </child>
                 <shape xsi:type="rectangle"/>
             </child>
             <child ID="68" label="etc." created="1392584767672" x="34.0"
-                y="134.5" width="30.0" height="22.0" strokeWidth="1.0"
+                y="151.375" width="30.0" height="22.0" strokeWidth="1.0"
                 autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
+                <fillColor>#FEFD8C</fillColor>
                 <strokeColor>#776D6D</strokeColor>
                 <textColor>#000000</textColor>
                 <font>Arial-plain-12</font>
@@ -637,71 +655,26 @@
         <shape xsi:type="rectangle"/>
     </child>
     <child ID="69" label="spatial object" layerID="1"
-        created="1392584767669" x="370.27866" y="-66.82602"
-        width="117.375" height="109.0" strokeWidth="1.0"
-        autoSized="true" xsi:type="node">
-        <resource referenceCreated="0"
-            spec="http://ethoinformatics.org/terms/spatial-object"
-            type="2" xsi:type="URLResource">
-            <property key="URL" value="http://ethoinformatics.org/terms/spatial-object"/>
-        </resource>
+        created="1392584767669" x="400.68884" y="-55.56299"
+        width="111.0" height="67.75" strokeWidth="1.0" autoSized="true" xsi:type="node">
         <fillColor>#DAA9FF</fillColor>
         <strokeColor>#776D6D</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c8580b38053b4470123446daf5eac26</URIString>
         <child ID="70" label="type" created="1392584767673" x="34.0"
-            y="22.0" width="103.5" height="82.0" strokeWidth="1.0"
+            y="22.0" width="62.0" height="27.0" strokeWidth="1.0"
             autoSized="true" xsi:type="node">
+            <notes>possible values: point location, site, other</notes>
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
             <textColor>#000000</textColor>
             <font>Arial-plain-12</font>
             <URIString>http://vue.tufts.edu/rdf/resource/3c8580b38053b4470123446d2e13cba3</URIString>
-            <child ID="82" label="point-location"
-                created="1395868319714" x="34.0" y="22.0" width="85.0"
-                height="22.0" strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <resource referenceCreated="0"
-                    spec="http://ethoinformatics.org/terms/point-location"
-                    type="2" xsi:type="URLResource">
-                    <property key="URL" value="http://ethoinformatics.org/terms/point-location"/>
-                </resource>
-                <fillColor>#DAA9FF</fillColor>
-                <strokeColor>#776D6D</strokeColor>
-                <textColor>#000000</textColor>
-                <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/0040ef43ac1a254401dd05d65af57700</URIString>
-                <shape xsi:type="rectangle"/>
-            </child>
-            <child ID="83" label="site" created="1395868338191" x="34.0"
-                y="40.75" width="30.0" height="22.0" strokeWidth="1.0"
-                autoSized="true" xsi:type="node">
-                <resource referenceCreated="0"
-                    spec="http://ethoinformatics.org/terms/site"
-                    type="2" xsi:type="URLResource">
-                    <property key="URL" value="http://ethoinformatics.org/terms/site"/>
-                </resource>
-                <fillColor>#DAA9FF</fillColor>
-                <strokeColor>#776D6D</strokeColor>
-                <textColor>#000000</textColor>
-                <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/0040ef43ac1a254401dd05d6b2f9a65e</URIString>
-                <shape xsi:type="rectangle"/>
-            </child>
-            <child ID="84" label="other" created="1395868381783"
-                x="34.0" y="59.5" width="39.0" height="22.0"
-                strokeWidth="1.0" autoSized="true" xsi:type="node">
-                <fillColor>#FFFFFF</fillColor>
-                <strokeColor>#776D6D</strokeColor>
-                <textColor>#000000</textColor>
-                <font>Arial-plain-12</font>
-                <URIString>http://vue.tufts.edu/rdf/resource/0040ef43ac1a254401dd05d65af9362a</URIString>
-                <shape xsi:type="rectangle"/>
-            </child>
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="71" label="description" created="1392584767673"
-            x="34.0" y="86.5" width="71.0" height="22.0"
+            x="34.0" y="45.25" width="71.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FEFD8C</fillColor>
             <strokeColor>#776D6D</strokeColor>
@@ -712,66 +685,38 @@
         </child>
         <shape xsi:type="rectangle"/>
     </child>
-    <child ID="72" layerID="1" created="1392584767669" x="442.71082"
-        y="-2.3885498" width="61.150604" height="75.51611"
+    <child ID="72" layerID="1" created="1392584767669" x="460.3457"
+        y="11.687012" width="5.919159" height="36.78296"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c8580b48053b4470123446dd52fb2e1</URIString>
-        <point1 x="443.21082" y="-1.8885498"/>
-        <point2 x="503.36142" y="72.62756"/>
-        <ID1 xsi:type="node">83</ID1>
+        <point1 x="460.8457" y="12.187012"/>
+        <point2 x="465.76486" y="47.96997"/>
+        <ID1 xsi:type="node">69</ID1>
         <ID2 xsi:type="node">33</ID2>
     </child>
-    <child ID="73" layerID="1" created="1392584767669" x="475.0183"
-        y="-16.45102" width="143.20438" height="41.300156"
+    <child ID="73" layerID="1" created="1392584767669" x="511.18884"
+        y="8.652618" width="75.497314" height="42.397186"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="0" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/3c8580b48053b4470123446d88157b2c</URIString>
-        <point1 x="475.51828" y="-15.951019"/>
-        <point2 x="617.72266" y="24.349136"/>
-        <ID1 xsi:type="node">82</ID1>
+        <point1 x="511.68884" y="9.152618"/>
+        <point2 x="586.18616" y="50.549805"/>
+        <ID1 xsi:type="node">69</ID1>
         <ID2 xsi:type="node">16</ID2>
-    </child>
-    <child ID="80" label="universal domain" layerID="1"
-        created="1395868228518" x="228.72809" y="-23.938374"
-        width="149.0" height="67.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#000000</textColor>
-        <font>-plain-24</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/0040ef44ac1a254401dd05d6944078df</URIString>
-        <richText>&lt;html&gt;
-  &lt;head color="#000000" style="color: #000000"&gt;
-    &lt;style type="text/css"&gt;
-      &lt;!--
-        body { font-family: Arial; margin-bottom: 0px; font-size: 12; margin-top: 0px; margin-right: 0px; color: #000000; margin-left: 0px }
-        ol { font-family: Arial; font-size: 12; vertical-align: middle; margin-top: 6; list-style-position: outside; margin-left: 30 }
-        p { margin-bottom: 0; margin-top: 0; margin-right: 0; color: #000000; margin-left: 0 }
-        ul { font-family: Arial; font-size: 12; vertical-align: middle; margin-top: 6; list-style-position: outside; margin-left: 30 }
-      --&gt;
-    &lt;/style&gt;
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p color="#000000" style="text-align: center; color: #000000"&gt;
-      &lt;font style="font-size:24;"&gt;universal domain&lt;/font&gt;
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</richText>
-        <label>universal domain</label>
     </child>
     <layer ID="1" label="Layer 1" created="1392584766042" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/3c8580b58053b4470123446db75b942f</URIString>
     </layer>
-    <userZoom>0.8878605667117395</userZoom>
-    <userOrigin x="-120.77578" y="-157.80537"/>
+    <userZoom>1.0</userZoom>
+    <userOrigin x="-553.03406" y="-65.14322"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1392584766037"
@@ -823,6 +768,6 @@
     </PathwayList>
     <date>2014-02-16</date>
     <modelVersion>6</modelVersion>
-    <saveLocation>/Users/kenneth/Dropbox/ethogrammar</saveLocation>
-    <saveFile>/Users/kenneth/Dropbox/ethogrammar/universal.vue</saveFile>
+    <saveLocation>/Users/anthony.difiore/ethogrammar</saveLocation>
+    <saveFile>/Users/anthony.difiore/ethogrammar/universal.vue</saveFile>
 </LW-MAP>
