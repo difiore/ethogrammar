@@ -14,7 +14,7 @@ Replace with:
 
 *Organized by domain*
 
-## Universal
+## Universal`
 
 <!--
 REMOVED FROM time
@@ -55,13 +55,27 @@ Attributes:
 
 ### spatial object
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * type
+	Definition: blah blah blah
 	* point location
+		Definition: blah blah blah
 	* site
 	* other
 * description
 
 ### site
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * country
 * state
@@ -71,6 +85,12 @@ Attributes:
 * projection
 
 ### point location
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * latitude
 * longitude
@@ -88,6 +108,12 @@ Attributes:
 
 ### physical record
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * type
 	* photo
 	* video
@@ -98,6 +124,12 @@ Attributes:
 	* etc.
 
 ### measurement
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * type
 	* mass
@@ -114,6 +146,12 @@ Attributes:
 
 ### taxonomy
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * family
 * genus
 * species
@@ -125,6 +163,12 @@ Attributes:
 
 ### observer
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * name
 * sex
 * date of birth
@@ -133,15 +177,33 @@ Attributes:
 
 ### research group
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * name
 * member
 
 ### institution
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * name
 * address
 
 ### research project
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * name
 * start date
@@ -155,6 +217,12 @@ Attributes:
 
 ### product
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * type
 	* training
 	* conference presentation
@@ -167,6 +235,12 @@ Attributes:
 * citation
 
 ### document
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * type
 	* MOU
@@ -184,6 +258,12 @@ Attributes:
 
 ### award
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * amount
 * currency
 * receive date
@@ -194,6 +274,12 @@ Attributes:
 
 
 ### individual animal
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * name
 * id code
@@ -206,6 +292,12 @@ Attributes:
 * individual age
 
 ### life history event
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * individual animal
 * date of event
@@ -227,12 +319,24 @@ Attributes:
 
 ### group
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * group name
 * date of formation
 * date of dissolution
 * parent group
 
 ### census
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * date recorded
 * time recorded
@@ -244,6 +348,12 @@ Attributes:
 	* subgroup
 
 ### physical state observation
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * individual animal
 * date of observation
@@ -257,12 +367,24 @@ Attributes:
 
 ### unit of behavior
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * start time
 * end time
 * participant
 * class of behavior
 
 ### participant
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * individual animal
 * role
@@ -273,6 +395,12 @@ Attributes:
 
 ### behavior sample
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * observer
 * date
 * group
@@ -282,15 +410,33 @@ Attributes:
 
 ### ethogram
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * research group
 * class of behavior
 
 ### class of behavior
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * name
 * parent
 
 ### behavior protocol
+
+Definition:
+
+Attributes:
+
+Notes:
 
 <!-- individual and group should both be prefixed by "focal" -->
 
@@ -312,6 +458,12 @@ Attributes:
 
 ### tree
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * taxonomy
 * location
 * date of death
@@ -325,6 +477,12 @@ Attributes:
 
 ### ecological observation
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * tree
 * date of measurement
 * measurement
@@ -335,6 +493,12 @@ Attributes:
 
 ### phenology monitoring data
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * tree
 * date of monitoring
 * monitored by
@@ -342,6 +506,12 @@ Attributes:
 * amount
 
 ### meteorological sample
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * date recorded
 * time recorded
@@ -353,6 +523,12 @@ Attributes:
 	* etc.
 
 ### other patch
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * marked by
 * location
@@ -374,6 +550,12 @@ Attributes:
 
 ### indirect sign
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * type of sign
 	* print
 	* human activity
@@ -393,6 +575,12 @@ Attributes:
 
 ### capture event
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * date
 * method
 	* trapping
@@ -409,6 +597,12 @@ Attributes:
 
 ### processing event
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * start time
 * observer
 * site
@@ -422,6 +616,12 @@ Attributes:
 
 ### dose
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * drug name
 * amount
 * units
@@ -429,6 +629,12 @@ Attributes:
 * processing event
 
 ### physical observation
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * collector
 * time of observation
@@ -446,6 +652,12 @@ Attributes:
 * ectoparasites
 
 ### dental observation
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * tooth type
 * set
@@ -466,6 +678,12 @@ Attributes:
 * physical observation
 
 ### biological sample
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * collector
 * collection site
@@ -498,6 +716,12 @@ Attributes:
 
 ### subsample
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * biological sample
 * amount
 * quality
@@ -505,6 +729,12 @@ Attributes:
 * date made
 
 ### storage condition
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * medium
 	* quantity
@@ -520,6 +750,12 @@ Attributes:
 
 
 ### experiment
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * experimenter
 * type
@@ -537,6 +773,12 @@ Attributes:
 
 ### extraction
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * biological sample
 * amount used
 * protocol used
@@ -546,6 +788,12 @@ Attributes:
 
 ### lab protocol
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * protocol name
 * protocol author
 * protocol publication date
@@ -553,9 +801,21 @@ Attributes:
 
 ### result
 
+Definition:
+
+Attributes:
+
+Notes:
+
 * result type
 
 ### genotype
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * locus
 * allele 1
@@ -563,6 +823,12 @@ Attributes:
 * etc.
 
 ### hormone level
+
+Definition:
+
+Attributes:
+
+Notes:
 
 * value
 * units
