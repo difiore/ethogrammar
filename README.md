@@ -14,9 +14,12 @@ Replace with:
 
 *Organized by domain*
 
-## Universal`
+## Universal
 
 <!--
+
+CHANGELOG
+
 REMOVED FROM time
 * hour
 * minute
@@ -28,6 +31,27 @@ REMOVED FROM date
 * month
 * day
 * year
+
+REMOVED FROM site
+* projection
+
+RENAMED WITHIN site
+* datum (now zone)
+
+REMOVED FROM point location
+* projection (synonymous with datum)
+* latitude
+* longitude
+* x coordinate
+* y coordinate
+
+ADDED TO point location
+* verbatimCoordinates
+* verbatimLatitude
+* verbatimLongitude
+* verbatimCoordinateSystem
+* verbatimSRS
+
 -->
 
 
@@ -35,7 +59,11 @@ REMOVED FROM date
 
 Definition:
 
-Darwin Core *eventTime-2009-04-24*: The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+tdwg:eventTime: The time or interval during which an Event occurred. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+
+Notes:
+
+The timestamp and its encoding should specify information including hour, minute, second, time zone, and DST.
 
 Attributes:
 
@@ -46,7 +74,11 @@ Attributes:
 
 Definition:
 
-Darwin Core *eventDate-2009-04-24*: The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+tdwg:eventDate: The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E).
+
+Notes:
+
+The datestamp and its encoding should specify information including month, day, and year.
 
 Attributes:
 
@@ -57,62 +89,64 @@ Attributes:
 
 Definition:
 
-Attributes:
+A generic class encompassing positional information
 
 Notes:
 
-* type
-	Definition: blah blah blah
-	* point location
-		Definition: blah blah blah
-	* site
-	* other
-* description
+See dcterms:Location; for metadata to incorporate, see also tdwg:locationAccordingTo, tdwg:georeferencedBy, tdwg:georeferenceSources, tdwg:georeferenceRemarks, tdwg:georeferenceVerificationStatus
+
+Attributes:
+
+* type :: The type of spatial object, most often a point location or site.
+	1. point location :: A location that is defined as a single point in space.
+	2. site :: A location that is defined as an area in space
+	3. other :: Miscellaneous class encompassing all other types of spatial data
+* description :: A description specifying characteristics of the spatial object (suggest removal as both site and point location have their own description attributes)
 
 ### site
 
 Definition:
 
-Attributes:
+A class of positional information in which the location is defined as an area in space.
 
 Notes:
 
-* country
-* state
-* locality
-* datum
-* description
-* projection
+Attributes:
+
+* country :: The name of the country or major administrative unit in which the Location occurs. Recommended best practice is to use a controlled vocabulary such as the Getty Thesaurus of Geographic Names (from tdwg:country)
+* state :: A territorial and constitutional community forming part of a federal union [http://en.wikipedia.org/wiki/Federated_state]
+* locality :: A local region, municipality, or community; equivalent to tdwg:verbatimLocality
+* zone :: A zone defined under the Universal Transverse Mercator (UTM) coordinate system
+* description :: Additional attributes describing the site; equivalent to tdwg:locationRemarks
 
 ### point location
 
 Definition:
 
-Attributes:
+A class of positional information in which the location is defined as a single point in space.
 
 Notes:
 
-* latitude
-* longitude
-* x coordinate
-* y coordinate
-* datum
-* altitude
-* description
-* collection method
-	* GPS
-	* reference point
-	* etc.
-* associated error
-* projection
+Attributes:
+
+* datum :: A set of values used to define a specific geodetic system [http://en.wikipedia.org/wiki/Datum_(geodesy)]; see also tdwg:geodeticDatum
+* altitude :: The elevation or range of elevation; see also tdwg:verbatimElevation, tdwg:minimumElevationInMeters, tdwg:maximumElevationInMeters, tdwg:verbatimDepth, tdwg:minimumDepthInMeters, tdwg:maximumDepthInMeters, tdwg:minimumDistanceAboveSurfaceInMeters, tdwg:maximumDistanceAboveSurfaceInMeters
+* description :: Additional attributes describing the point location; equivalent to tdwg:locationRemarks
+* collection method :: how the point location was determined; see also georeferenceProtocol
+	1. GPS
+	2. reference point
+	3. etc.
+* associated error :: See also tdwg:coordinatePrecision, tdwg:coordinateUncertaintyInMeters
 
 ### physical record
 
 Definition:
 
-Attributes:
-
 Notes:
+
+see also tdwg:materialSampleID (which includes original specimens but not derived media, measurements, etc.)
+
+Attributes:
 
 * type
 	* photo
@@ -127,9 +161,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * type
 	* mass
@@ -148,9 +182,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * family
 * genus
@@ -165,9 +199,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * name
 * sex
@@ -179,9 +213,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * name
 * member
@@ -190,9 +224,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * name
 * address
@@ -201,9 +235,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * name
 * start date
@@ -219,9 +253,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * type
 	* training
@@ -238,9 +272,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * type
 	* MOU
@@ -260,9 +294,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * amount
 * currency
@@ -277,9 +311,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * name
 * id code
@@ -295,9 +329,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * individual animal
 * date of event
@@ -321,9 +355,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * group name
 * date of formation
@@ -334,9 +368,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * date recorded
 * time recorded
@@ -351,9 +385,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * individual animal
 * date of observation
@@ -369,9 +403,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * start time
 * end time
@@ -382,9 +416,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * individual animal
 * role
@@ -397,9 +431,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * observer
 * date
@@ -412,9 +446,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * research group
 * class of behavior
@@ -423,9 +457,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * name
 * parent
@@ -434,9 +468,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 <!-- individual and group should both be prefixed by "focal" -->
 
@@ -460,9 +494,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * taxonomy
 * location
@@ -479,9 +513,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * tree
 * date of measurement
@@ -495,9 +529,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * tree
 * date of monitoring
@@ -509,9 +543,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * date recorded
 * time recorded
@@ -526,9 +560,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * marked by
 * location
@@ -552,9 +586,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * type of sign
 	* print
@@ -577,9 +611,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * date
 * method
@@ -599,9 +633,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * start time
 * observer
@@ -618,9 +652,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * drug name
 * amount
@@ -632,9 +666,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * collector
 * time of observation
@@ -655,9 +689,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * tooth type
 * set
@@ -681,9 +715,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * collector
 * collection site
@@ -718,9 +752,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * biological sample
 * amount
@@ -732,9 +766,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * medium
 	* quantity
@@ -753,9 +787,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * experimenter
 * type
@@ -775,9 +809,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * biological sample
 * amount used
@@ -790,9 +824,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * protocol name
 * protocol author
@@ -803,9 +837,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * result type
 
@@ -813,9 +847,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * locus
 * allele 1
@@ -826,9 +860,9 @@ Notes:
 
 Definition:
 
-Attributes:
-
 Notes:
+
+Attributes:
 
 * value
 * units
