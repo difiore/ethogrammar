@@ -142,6 +142,8 @@ Attributes:
 
 Definition:
 
+Material record that is stored physically or digitally. 
+
 Notes:
 
 see also tdwg:materialSampleID (which includes original specimens but not derived media, measurements, etc.)
@@ -182,6 +184,8 @@ Attributes:
 
 Definition:
 
+Hierarchical classification of individuals.
+
 Notes:
 
 Attributes:
@@ -198,6 +202,8 @@ Attributes:
 ### observer
 
 Definition:
+
+Individual taking the recordings. 
 
 Notes:
 
@@ -253,6 +259,8 @@ Attributes:
 
 Definition:
 
+Output of a project or specific study. 
+
 Notes:
 
 Attributes:
@@ -294,6 +302,8 @@ Attributes:
 
 Definition:
 
+Grants that used to fund the project. 
+
 Notes:
 
 Attributes:
@@ -310,6 +320,8 @@ Attributes:
 ### individual animal
 
 Definition:
+
+Animal observed for data collection.
 
 Notes:
 
@@ -355,7 +367,11 @@ Attributes:
 
 Definition:
 
+Cluster of individuals that maintain social (affiliative and agonistic) interactions in space and time. 
+
 Notes:
+
+Social interactions between individuals in the group cannot be exclusively agonistic. 
 
 Attributes:
 
@@ -368,6 +384,8 @@ Attributes:
 
 Definition:
 
+Number of individuals in a specific area observed for estimation of population or group size. 
+
 Notes:
 
 Attributes:
@@ -377,6 +395,10 @@ Attributes:
 * group
 * taker
 * composition
+* method
+	* transect
+	* plot
+	* etc
 * type
 	* group
 	* subgroup
@@ -384,6 +406,8 @@ Attributes:
 ### physical state observation
 
 Definition:
+
+Assessment of physical traits of an individual.
 
 Notes:
 
@@ -416,6 +440,8 @@ Attributes:
 
 Definition:
 
+Non-focal animal involved in a social interaction with the focal animal. 
+
 Notes:
 
 Attributes:
@@ -445,6 +471,8 @@ Attributes:
 ### ethogram
 
 Definition:
+
+Detailed description of typical behaviors observed in a species or in the study group.
 
 Notes:
 
@@ -508,6 +536,10 @@ Attributes:
 	* sleeping
 	* resting
 * collection
+	* leaves
+	* fruits
+	* seeds
+	* nutritional
 
 ### ecological observation
 
@@ -550,6 +582,9 @@ Attributes:
 * date recorded
 * time recorded
 * recorded by
+* recording instrument
+	* name
+	* model
 * measurement
 	* temperature
 	* humidity
@@ -585,6 +620,8 @@ Attributes:
 ### indirect sign
 
 Definition:
+
+Evidence of behavioral activity that was not observed by the researcher. 
 
 Notes:
 
@@ -652,6 +689,8 @@ Attributes:
 
 Definition:
 
+Amount and concentration of drug used to sedate an animal. 
+
 Notes:
 
 Attributes:
@@ -714,6 +753,8 @@ Attributes:
 ### biological sample
 
 Definition:
+
+Biological material from an animal that can be collected by the researcher. 
 
 Notes:
 
@@ -787,6 +828,8 @@ Attributes:
 
 Definition:
 
+Treatment of a biological sample for analysis. 
+
 Notes:
 
 Attributes:
@@ -809,6 +852,8 @@ Attributes:
 
 Definition:
 
+DNA isolation from a biological sample.
+
 Notes:
 
 Attributes:
@@ -823,6 +868,8 @@ Attributes:
 ### lab protocol
 
 Definition:
+
+Detailed instructions on how to proceed for the analysis of biological samples.
 
 Notes:
 
