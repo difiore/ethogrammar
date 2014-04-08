@@ -454,6 +454,7 @@ Attributes:
 
 * individual animal
 * role
+
 	Definition:
 	The part that an individual plays in a social interaction.
 
@@ -499,6 +500,7 @@ Notes:
 Attributes:
 
 * name
+
 Definition: Denotative of a specific behavior.
 
 * parent
@@ -515,6 +517,7 @@ Attributes:
 <!-- individual and group should both be prefixed by "focal" -->
 
 * sampling rule
+
 Definition: Determines the subject of a behavior sample, whether an individual or a set of individuals, or a specific 
 behavior of interest.
 	* focal individual
@@ -523,16 +526,19 @@ behavior of interest.
 	* ad libitium
 	
 * scheduling rule
+
 Definition: The temporal span over which the subjects’ behavior is sampled. Instantaneous samples represent a snapshot 
 in time with negligible duration, whereas continuous samples have a duration.
 	* instantaneous
 	* continuous
 	
 * interval
+
 Definition: Time between two consecutive instantaneous samples.
 
 * targeted duration
-A predetermined length of time over which the study subject(s) is/are to be observed, if possible.
+
+Definition: A predetermined length of time over which the study subject(s) is/are to be observed, if possible.
 
 * ethogram
 * research project
