@@ -493,7 +493,7 @@ Attributes:
 
 ### class of behavior
 
-Definition: A group of several related types of behavior.
+Definition: A category containing related types of behavior.
 
 Notes:
 
@@ -550,7 +550,7 @@ Definition: A predetermined length of time over which the study subject(s) is/ar
 
 Definition:
 
-Notes:
+Notes: 
 
 Attributes:
 
