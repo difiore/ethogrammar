@@ -445,7 +445,6 @@ Non-focal animal involved in a social interaction with the focal animal.
 COMMENT: Since all behavior samples do not necessarily involve a focal animal (because a behavior sample can have 
 multiple individuals or even a particular behavior as its subject, according to the “sampling rule”), maybe this
 definition should be revised? An alternative definition could be:
-
 Any animal involved in a social interaction with the sample's subject.
 
 Notes:
@@ -455,9 +454,9 @@ Attributes:
 * individual animal
 * role
 
-	Definition:
-	The part that an individual plays in a social interaction.
-
+Definition:
+The part that an individual plays in a social interaction.
+	
 	* actor
 	* recipient
 	* mutual
@@ -520,6 +519,7 @@ Attributes:
 
 Definition: Determines the subject of a behavior sample, whether an individual or a set of individuals, or a specific 
 behavior of interest.
+
 	* focal individual
 	* focal group
 	* behavior
@@ -529,6 +529,7 @@ behavior of interest.
 
 Definition: The temporal span over which the subjects’ behavior is sampled. Instantaneous samples represent a snapshot 
 in time with negligible duration, whereas continuous samples have a duration.
+
 	* instantaneous
 	* continuous
 	
