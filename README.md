@@ -425,7 +425,7 @@ Attributes:
 
 ### unit of behavior
 
-Definition:
+Definition: An instance of behavior as specified in the ethogram.
 
 Notes:
 
@@ -442,12 +442,21 @@ Definition:
 
 Non-focal animal involved in a social interaction with the focal animal. 
 
+COMMENT: Since all behavior samples do not necessarily involve a focal animal (because a behavior sample can have 
+multiple individuals or even a particular behavior as its subject, according to the “sampling rule”), maybe this
+definition should be revised? An alternative definition could be:
+
+Any animal involved in a social interaction with the sample's subject.
+
 Notes:
 
 Attributes:
 
 * individual animal
 * role
+	Definition:
+	The part that an individual plays in a social interaction.
+
 	* actor
 	* recipient
 	* mutual
@@ -455,7 +464,7 @@ Attributes:
 
 ### behavior sample
 
-Definition:
+Definition: A record of a subject’s behavior, or linked records of behavior made over a specific time span.
 
 Notes:
 
@@ -483,18 +492,21 @@ Attributes:
 
 ### class of behavior
 
-Definition:
+Definition: A group of several related types of behavior.
 
 Notes:
 
 Attributes:
 
 * name
+Definition: Denotative of a specific behavior.
+
 * parent
 
 ### behavior protocol
 
-Definition:
+Definition: The set of detailed instructions specifying how behavioral data for a particular research project are 
+collected.
 
 Notes:
 
@@ -503,15 +515,25 @@ Attributes:
 <!-- individual and group should both be prefixed by "focal" -->
 
 * sampling rule
+Definition: Determines the subject of a behavior sample, whether an individual or a set of individuals, or a specific 
+behavior of interest.
 	* focal individual
 	* focal group
 	* behavior
 	* ad libitium
+	
 * scheduling rule
+Definition: The temporal span over which the subjects’ behavior is sampled. Instantaneous samples represent a snapshot 
+in time with negligible duration, whereas continuous samples have a duration.
 	* instantaneous
 	* continuous
+	
 * interval
+Definition: Time between two consecutive instantaneous samples.
+
 * targeted duration
+A predetermined length of time over which the study subject(s) is/are to be observed, if possible.
+
 * ethogram
 * research project
 
