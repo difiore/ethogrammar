@@ -12,7 +12,7 @@ Replace with:
 
 -->
 
-*Organized by domain*
+*Organized by DOMAIN*
 
 ## Universal
 
@@ -98,7 +98,7 @@ See dcterms:Location; for metadata to incorporate, see also tdwg:locationAccordi
 Attributes:
 
 * type :: The type of spatial object, most often a point location or site.
-	1. point location :: A location that is defined as a single point in space.
+	1. point location :: A location that is defined as a single point in space
 	2. site :: A location that is defined as an area in space
 	3. other :: Miscellaneous class encompassing all other types of spatial data
 * description :: A description specifying characteristics of the spatial object (suggest removal as both site and point location have their own description attributes)
